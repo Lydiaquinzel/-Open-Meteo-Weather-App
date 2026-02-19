@@ -1,0 +1,48 @@
+/* App.css */
+
+/* Fondo de la app */
+.app-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  padding: 20px 0;         /* margen superior e inferior */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Contenedor principal */
+.dashboard-container {
+  background-color: rgba(255, 255, 255, 0.615);
+  padding: 30px;                 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  width: 80%;            /* ancho inicial normal, igual que los otros componentes */
+  max-width: 1200px;     /* evita que crezca demasiado en pantallas grandes */
+  margin-top: 30px;       
+}
+
+/* GlobalStats: clase dinámica para expandir cuando hay datos */
+.global-normal {
+  width: 100%;   /* ocupa el ancho del col (igual que otros componentes) */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.global-expanded {
+  width: 100%;    /* al mostrar datos se expande */
+  max-width: 100%;
+  overflow-x: auto; /* permite que la tabla crezca si es muy ancha */
+}
+
+.footer-app {
+  position: fixed;                  
+  bottom: 0;
+  width: 100%;                      
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #333;                    
+  text-align: center;            
+  padding: 8px 0; 
+}

@@ -1,0 +1,244 @@
+2026-02-19 08:17:06,570 - INFO - Searching coordinates for city: Madrid
+2026-02-19 08:17:06,750 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 08:17:06,752 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2024-07-01 to 2024-07-01
+2026-02-19 08:17:06,916 - INFO - Weather data received: 24 records
+2026-02-19 08:17:06,917 - INFO - Storing weather data for Madrid
+2026-02-19 08:17:06,920 - INFO - 24 records inserted into DB for Madrid
+2026-02-19 08:17:32,215 - INFO - Searching coordinates for city: Madrid
+2026-02-19 08:17:32,378 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 08:17:32,379 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2023-07-01 to 2025-07-01
+2026-02-19 08:17:32,876 - INFO - Weather data received: 17568 records
+2026-02-19 08:17:32,882 - INFO - Storing weather data for Madrid
+2026-02-19 08:17:33,512 - INFO - 17568 records inserted into DB for Madrid
+2026-02-19 10:05:17,975 - INFO - Searching coordinates for city: Madrid
+2026-02-19 10:05:18,157 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 10:05:18,159 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2024-07-01 to 2024-07-01
+2026-02-19 10:05:18,321 - INFO - Weather data received: 24 records
+2026-02-19 10:05:18,322 - INFO - Storing weather data for Madrid
+2026-02-19 10:05:18,325 - INFO - 24 records inserted into DB for Madrid
+2026-02-19 10:31:43,226 - INFO - Searching coordinates for city: Madrid
+2026-02-19 10:31:43,444 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 10:31:43,445 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2026-02-19 to 2026-02-19
+2026-02-19 10:31:43,609 - INFO - Weather data received: 24 records
+2026-02-19 10:31:43,610 - INFO - Storing weather data for Madrid
+2026-02-19 12:05:58,619 - INFO - Searching coordinates for city: Madrid
+2026-02-19 12:05:58,793 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 12:05:58,794 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2024-07-01 to 2024-07-01
+2026-02-19 12:05:58,963 - INFO - Weather data received: 24 records
+2026-02-19 12:05:58,964 - INFO - Storing weather data for Madrid
+2026-02-19 12:05:58,968 - INFO - 24 records inserted into DB for Madrid
+2026-02-19 12:07:44,107 - INFO - Searching coordinates for city: Madrid
+2026-02-19 12:07:44,270 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 12:07:44,271 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2023-07-01 to 2025-07-01
+2026-02-19 12:07:44,716 - INFO - Weather data received: 17568 records
+2026-02-19 12:07:44,721 - INFO - Storing weather data for Madrid
+2026-02-19 12:07:45,355 - INFO - 17568 records inserted into DB for Madrid
+2026-02-19 12:59:10,553 - INFO - Searching coordinates for city: Madrid
+2026-02-19 12:59:10,738 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 12:59:10,739 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2023-07-01 to 2025-07-01
+2026-02-19 12:59:11,159 - INFO - Weather data received: 17568 records
+2026-02-19 12:59:11,165 - INFO - Storing weather data for Madrid
+2026-02-19 12:59:11,869 - INFO - 17568 records inserted into DB for Madrid
+2026-02-19 20:01:02,492 - INFO - Searching coordinates for city: Madrid
+2026-02-19 20:01:02,693 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 20:01:02,695 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2026-02-19 to 2026-02-19
+2026-02-19 20:01:02,852 - INFO - Weather data received: 24 records
+2026-02-19 20:01:02,853 - INFO - Storing weather data for Madrid
+2026-02-19 20:01:02,876 - INFO - 24 records inserted into DB for Madrid
+2026-02-19 20:14:04,296 - INFO - Searching coordinates for city: Alicante
+2026-02-19 20:14:04,486 - INFO - Coordinates found: {'id': 2521978, 'name': 'Alicante', 'latitude': 38.34517, 'longitude': -0.48149, 'elevation': 18.0, 'feature_code': 'PPLA2', 'country_code': 'ES', 'admin1_id': 2593113, 'admin2_id': 2521976, 'admin3_id': 6355390, 'timezone': 'Europe/Madrid', 'population': 334757, 'postcodes': ['03070', '03071', '03005', '03006', '03007', '03009', '03010', '03011', '03012', '03013', '03014', '03080', '03114', '03559', '03016', '03540', '03003', '03008', '03001', '03004', '03015', '03002'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Valencia', 'admin2': 'Alicante', 'admin3': 'Alicante'}
+2026-02-19 20:14:04,487 - INFO - Fetching weather data for lat=38.34517, lon=-0.48149, from 2026-02-19 to 2026-02-19
+2026-02-19 20:14:04,650 - INFO - Weather data received: 24 records
+2026-02-19 20:14:04,651 - INFO - Storing weather data for Alicante
+2026-02-19 20:14:04,664 - INFO - 24 records inserted into DB for Alicante
+2026-02-19 20:15:15,121 - INFO - Searching coordinates for city: Alicante
+2026-02-19 20:15:15,687 - INFO - Coordinates found: {'id': 2521978, 'name': 'Alicante', 'latitude': 38.34517, 'longitude': -0.48149, 'elevation': 18.0, 'feature_code': 'PPLA2', 'country_code': 'ES', 'admin1_id': 2593113, 'admin2_id': 2521976, 'admin3_id': 6355390, 'timezone': 'Europe/Madrid', 'population': 334757, 'postcodes': ['03070', '03071', '03005', '03006', '03007', '03009', '03010', '03011', '03012', '03013', '03014', '03080', '03114', '03559', '03016', '03540', '03003', '03008', '03001', '03004', '03015', '03002'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Valencia', 'admin2': 'Alicante', 'admin3': 'Alicante'}
+2026-02-19 20:15:15,688 - INFO - Fetching weather data for lat=38.34517, lon=-0.48149, from 2026-02-19 to 2026-02-19
+2026-02-19 20:15:15,848 - INFO - Weather data received: 24 records
+2026-02-19 20:15:15,850 - INFO - Storing weather data for Alicante
+2026-02-19 20:15:15,860 - INFO - 24 records inserted into DB for Alicante
+2026-02-19 20:21:40,556 - INFO - Searching coordinates for city: Madrid
+2026-02-19 20:21:40,743 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 20:21:40,744 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2023-07-01 to 2025-07-01
+2026-02-19 20:21:41,074 - INFO - Weather data received: 17568 records
+2026-02-19 20:21:41,079 - INFO - Storing weather data for Madrid
+2026-02-19 20:21:41,731 - INFO - 17568 records inserted into DB for Madrid
+2026-02-19 20:21:46,987 - INFO - Searching coordinates for city: London
+2026-02-19 20:21:47,171 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 20:21:47,172 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 2023-07-01 to 2025-07-01
+2026-02-19 20:21:47,476 - INFO - Weather data received: 17568 records
+2026-02-19 20:21:47,481 - INFO - Storing weather data for London
+2026-02-19 20:21:48,151 - INFO - 17568 records inserted into DB for London
+2026-02-19 20:21:53,175 - INFO - Searching coordinates for city: Egipto
+2026-02-19 20:21:53,353 - INFO - Coordinates found: {'id': 3815589, 'name': 'Egipto', 'latitude': 17.26207, 'longitude': -91.9715, 'elevation': 98.0, 'feature_code': 'PPL', 'country_code': 'MX', 'admin1_id': 3531011, 'admin2_id': 8581763, 'timezone': 'America/Mexico_City', 'population': 1419, 'country_id': 3996063, 'country': 'Mexico', 'admin1': 'Chiapas', 'admin2': 'Salto de Agua Municipality'}
+2026-02-19 20:21:53,355 - INFO - Fetching weather data for lat=17.26207, lon=-91.9715, from 2023-07-01 to 2025-07-01
+2026-02-19 20:21:53,717 - INFO - Weather data received: 17568 records
+2026-02-19 20:21:53,722 - INFO - Storing weather data for Egipto
+2026-02-19 20:21:54,345 - INFO - 17568 records inserted into DB for Egipto
+2026-02-19 20:22:01,625 - INFO - Searching coordinates for city: El Salvador
+2026-02-19 20:22:01,799 - INFO - Coordinates found: {'id': 3585968, 'name': 'El Salvador', 'latitude': 13.83333, 'longitude': -88.91667, 'elevation': 694.0, 'feature_code': 'PCLI', 'country_code': 'SV', 'timezone': 'America/El_Salvador', 'population': 6420744, 'country_id': 3585968, 'country': 'El Salvador'}
+2026-02-19 20:22:01,801 - INFO - Fetching weather data for lat=13.83333, lon=-88.91667, from 2023-07-01 to 2025-07-01
+2026-02-19 20:22:02,217 - INFO - Weather data received: 17568 records
+2026-02-19 20:22:02,223 - INFO - Storing weather data for El Salvador
+2026-02-19 20:22:02,866 - INFO - 17568 records inserted into DB for El Salvador
+2026-02-19 20:22:10,256 - INFO - Searching coordinates for city: Edimburgo
+2026-02-19 20:22:10,433 - INFO - Coordinates found: {'id': 11039834, 'name': 'Edimburgo', 'latitude': -6.89138, 'longitude': -76.26853, 'elevation': 256.0, 'feature_code': 'PPL', 'country_code': 'PE', 'admin1_id': 3692385, 'admin2_id': 8349576, 'admin3_id': 8350510, 'timezone': 'America/Lima', 'population': 3, 'country_id': 3932488, 'country': 'Peru', 'admin1': 'San Martín Department', 'admin2': 'Picota', 'admin3': 'Tingo De Ponasa'}
+2026-02-19 20:22:10,434 - INFO - Fetching weather data for lat=-6.89138, lon=-76.26853, from 2023-07-01 to 2025-07-01
+2026-02-19 20:22:10,770 - INFO - Weather data received: 17568 records
+2026-02-19 20:22:10,775 - INFO - Storing weather data for Edimburgo
+2026-02-19 20:22:11,448 - INFO - 17568 records inserted into DB for Edimburgo
+2026-02-19 20:24:10,563 - INFO - Searching coordinates for city: Paris
+2026-02-19 20:24:10,731 - INFO - Coordinates found: {'id': 2988507, 'name': 'Paris', 'latitude': 48.85341, 'longitude': 2.3488, 'elevation': 42.0, 'feature_code': 'PPLC', 'country_code': 'FR', 'admin1_id': 3012874, 'admin2_id': 2968815, 'admin3_id': 2988506, 'admin4_id': 6455259, 'timezone': 'Europe/Paris', 'population': 2138551, 'postcodes': ['75001', '75020', '75002', '75003', '75004', '75005', '75006', '75007', '75008', '75009', '75010', '75011', '75012', '75013', '75014', '75015', '75016', '75017', '75018', '75019'], 'country_id': 3017382, 'country': 'France', 'admin1': 'Île-de-France', 'admin2': 'Paris', 'admin3': 'Paris', 'admin4': 'Paris'}
+2026-02-19 20:24:10,733 - INFO - Fetching weather data for lat=48.85341, lon=2.3488, from 2026-02-19 to 2026-02-19
+2026-02-19 20:24:10,893 - INFO - Weather data received: 24 records
+2026-02-19 20:24:10,894 - INFO - Storing weather data for Paris
+2026-02-19 20:24:10,914 - INFO - 24 records inserted into DB for Paris
+2026-02-19 20:24:19,506 - INFO - Searching coordinates for city: Paris
+2026-02-19 20:24:19,690 - INFO - Coordinates found: {'id': 2988507, 'name': 'Paris', 'latitude': 48.85341, 'longitude': 2.3488, 'elevation': 42.0, 'feature_code': 'PPLC', 'country_code': 'FR', 'admin1_id': 3012874, 'admin2_id': 2968815, 'admin3_id': 2988506, 'admin4_id': 6455259, 'timezone': 'Europe/Paris', 'population': 2138551, 'postcodes': ['75001', '75020', '75002', '75003', '75004', '75005', '75006', '75007', '75008', '75009', '75010', '75011', '75012', '75013', '75014', '75015', '75016', '75017', '75018', '75019'], 'country_id': 3017382, 'country': 'France', 'admin1': 'Île-de-France', 'admin2': 'Paris', 'admin3': 'Paris', 'admin4': 'Paris'}
+2026-02-19 20:24:19,692 - INFO - Fetching weather data for lat=48.85341, lon=2.3488, from 2026-02-19 to 2026-02-19
+2026-02-19 20:24:19,842 - INFO - Weather data received: 24 records
+2026-02-19 20:24:19,844 - INFO - Storing weather data for Paris
+2026-02-19 20:24:19,854 - INFO - 24 records inserted into DB for Paris
+2026-02-19 20:26:24,353 - INFO - Searching coordinates for city: Bali
+2026-02-19 20:26:24,573 - INFO - Coordinates found: {'id': 1277539, 'name': 'Bāli', 'latitude': 22.64859, 'longitude': 88.34115, 'elevation': 8.0, 'feature_code': 'PPL', 'country_code': 'IN', 'admin1_id': 1252881, 'admin2_id': 1270397, 'admin3_id': 12685839, 'timezone': 'Asia/Kolkata', 'population': 296973, 'country_id': 1269750, 'country': 'India', 'admin1': 'West Bengal', 'admin2': 'Howrah', 'admin3': 'Bally Jagachha'}
+2026-02-19 20:26:24,575 - INFO - Fetching weather data for lat=22.64859, lon=88.34115, from 2026-02-19 to 2026-02-19
+2026-02-19 20:26:24,729 - INFO - Weather data received: 24 records
+2026-02-19 20:26:24,730 - INFO - Storing weather data for Bali
+2026-02-19 20:26:24,741 - INFO - 24 records inserted into DB for Bali
+2026-02-19 20:31:00,058 - INFO - Searching coordinates for city: Bali
+2026-02-19 20:31:00,244 - INFO - Coordinates found: {'id': 1277539, 'name': 'Bāli', 'latitude': 22.64859, 'longitude': 88.34115, 'elevation': 8.0, 'feature_code': 'PPL', 'country_code': 'IN', 'admin1_id': 1252881, 'admin2_id': 1270397, 'admin3_id': 12685839, 'timezone': 'Asia/Kolkata', 'population': 296973, 'country_id': 1269750, 'country': 'India', 'admin1': 'West Bengal', 'admin2': 'Howrah', 'admin3': 'Bally Jagachha'}
+2026-02-19 20:31:00,246 - INFO - Fetching weather data for lat=22.64859, lon=88.34115, from 2026-02-19 to 2026-02-19
+2026-02-19 20:31:00,429 - INFO - Weather data received: 24 records
+2026-02-19 20:31:00,430 - INFO - Storing weather data for Bali
+2026-02-19 20:31:00,441 - INFO - 24 records inserted into DB for Bali
+2026-02-19 20:32:14,531 - INFO - Searching coordinates for city: Edimburgo
+2026-02-19 20:32:14,704 - INFO - Coordinates found: {'id': 11039834, 'name': 'Edimburgo', 'latitude': -6.89138, 'longitude': -76.26853, 'elevation': 256.0, 'feature_code': 'PPL', 'country_code': 'PE', 'admin1_id': 3692385, 'admin2_id': 8349576, 'admin3_id': 8350510, 'timezone': 'America/Lima', 'population': 3, 'country_id': 3932488, 'country': 'Peru', 'admin1': 'San Martín Department', 'admin2': 'Picota', 'admin3': 'Tingo De Ponasa'}
+2026-02-19 20:32:14,705 - INFO - Fetching weather data for lat=-6.89138, lon=-76.26853, from 2023-07-01 to 2025-07-01
+2026-02-19 20:32:15,256 - INFO - Weather data received: 17568 records
+2026-02-19 20:32:15,261 - INFO - Storing weather data for Edimburgo
+2026-02-19 20:32:15,921 - INFO - 17568 records inserted into DB for Edimburgo
+2026-02-19 20:33:24,591 - INFO - Searching coordinates for city: London
+2026-02-19 20:33:24,750 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 20:33:24,751 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 2026-02-19 to 2026-02-19
+2026-02-19 20:33:24,907 - INFO - Weather data received: 24 records
+2026-02-19 20:33:24,908 - INFO - Storing weather data for London
+2026-02-19 20:33:24,917 - INFO - 24 records inserted into DB for London
+2026-02-19 20:33:30,769 - INFO - Searching coordinates for city: London
+2026-02-19 20:33:30,952 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 20:33:30,953 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 2026-02-19 to 2026-02-19
+2026-02-19 20:33:31,122 - INFO - Weather data received: 24 records
+2026-02-19 20:33:31,123 - INFO - Storing weather data for London
+2026-02-19 20:33:31,133 - INFO - 24 records inserted into DB for London
+2026-02-19 20:33:47,573 - INFO - Searching coordinates for city: DVKNSDJVGS
+2026-02-19 20:33:47,737 - ERROR - City not found: DVKNSDJVGS
+2026-02-19 20:35:23,722 - INFO - Searching coordinates for city: Bali
+2026-02-19 20:35:23,892 - INFO - Coordinates found: {'id': 1277539, 'name': 'Bāli', 'latitude': 22.64859, 'longitude': 88.34115, 'elevation': 8.0, 'feature_code': 'PPL', 'country_code': 'IN', 'admin1_id': 1252881, 'admin2_id': 1270397, 'admin3_id': 12685839, 'timezone': 'Asia/Kolkata', 'population': 296973, 'country_id': 1269750, 'country': 'India', 'admin1': 'West Bengal', 'admin2': 'Howrah', 'admin3': 'Bally Jagachha'}
+2026-02-19 20:35:23,893 - INFO - Fetching weather data for lat=22.64859, lon=88.34115, from 2026-02-19 to 2026-02-19
+2026-02-19 20:35:24,043 - INFO - Weather data received: 24 records
+2026-02-19 20:35:24,044 - INFO - Storing weather data for Bali
+2026-02-19 20:35:24,054 - INFO - 24 records inserted into DB for Bali
+2026-02-19 20:35:54,575 - INFO - Searching coordinates for city: Polonia
+2026-02-19 20:35:54,740 - INFO - Coordinates found: {'id': 5267668, 'name': 'Polonia', 'latitude': 44.56997, 'longitude': -89.41317, 'elevation': 369.0, 'feature_code': 'PPL', 'country_code': 'US', 'admin1_id': 5279468, 'admin2_id': 5267787, 'admin3_id': 5272854, 'timezone': 'America/Chicago', 'population': 526, 'country_id': 6252001, 'country': 'United States', 'admin1': 'Wisconsin', 'admin2': 'Portage', 'admin3': 'Town of Sharon'}
+2026-02-19 20:35:54,741 - INFO - Fetching weather data for lat=44.56997, lon=-89.41317, from 2026-02-19 to 2026-02-19
+2026-02-19 20:35:54,956 - INFO - Weather data received: 24 records
+2026-02-19 20:35:54,957 - INFO - Storing weather data for Polonia
+2026-02-19 20:35:54,967 - INFO - 24 records inserted into DB for Polonia
+2026-02-19 20:36:14,674 - INFO - Searching coordinates for city: Polonia
+2026-02-19 20:36:14,840 - INFO - Coordinates found: {'id': 5267668, 'name': 'Polonia', 'latitude': 44.56997, 'longitude': -89.41317, 'elevation': 369.0, 'feature_code': 'PPL', 'country_code': 'US', 'admin1_id': 5279468, 'admin2_id': 5267787, 'admin3_id': 5272854, 'timezone': 'America/Chicago', 'population': 526, 'country_id': 6252001, 'country': 'United States', 'admin1': 'Wisconsin', 'admin2': 'Portage', 'admin3': 'Town of Sharon'}
+2026-02-19 20:36:14,841 - INFO - Fetching weather data for lat=44.56997, lon=-89.41317, from 2026-02-19 to 2026-02-19
+2026-02-19 20:36:15,002 - INFO - Weather data received: 24 records
+2026-02-19 20:36:15,003 - INFO - Storing weather data for Polonia
+2026-02-19 20:36:15,013 - INFO - 24 records inserted into DB for Polonia
+2026-02-19 20:36:27,921 - INFO - Searching coordinates for city: Polonia
+2026-02-19 20:36:28,082 - INFO - Coordinates found: {'id': 5267668, 'name': 'Polonia', 'latitude': 44.56997, 'longitude': -89.41317, 'elevation': 369.0, 'feature_code': 'PPL', 'country_code': 'US', 'admin1_id': 5279468, 'admin2_id': 5267787, 'admin3_id': 5272854, 'timezone': 'America/Chicago', 'population': 526, 'country_id': 6252001, 'country': 'United States', 'admin1': 'Wisconsin', 'admin2': 'Portage', 'admin3': 'Town of Sharon'}
+2026-02-19 20:36:28,083 - INFO - Fetching weather data for lat=44.56997, lon=-89.41317, from 2026-02-19 to 2026-02-19
+2026-02-19 20:36:28,240 - INFO - Weather data received: 24 records
+2026-02-19 20:36:28,241 - INFO - Storing weather data for Polonia
+2026-02-19 20:36:28,250 - INFO - 24 records inserted into DB for Polonia
+2026-02-19 20:36:44,266 - INFO - Searching coordinates for city: Polonia
+2026-02-19 20:36:44,423 - INFO - Coordinates found: {'id': 5267668, 'name': 'Polonia', 'latitude': 44.56997, 'longitude': -89.41317, 'elevation': 369.0, 'feature_code': 'PPL', 'country_code': 'US', 'admin1_id': 5279468, 'admin2_id': 5267787, 'admin3_id': 5272854, 'timezone': 'America/Chicago', 'population': 526, 'country_id': 6252001, 'country': 'United States', 'admin1': 'Wisconsin', 'admin2': 'Portage', 'admin3': 'Town of Sharon'}
+2026-02-19 20:36:44,425 - INFO - Fetching weather data for lat=44.56997, lon=-89.41317, from 2026-02-19 to 2026-02-19
+2026-02-19 20:36:44,577 - INFO - Weather data received: 24 records
+2026-02-19 20:36:44,578 - INFO - Storing weather data for Polonia
+2026-02-19 20:36:44,589 - INFO - 24 records inserted into DB for Polonia
+2026-02-19 20:37:20,810 - INFO - Searching coordinates for city: Murcia
+2026-02-19 20:37:20,980 - INFO - Coordinates found: {'id': 2513416, 'name': 'Murcia', 'latitude': 37.98704, 'longitude': -1.13004, 'elevation': 53.0, 'feature_code': 'PPLA', 'country_code': 'ES', 'admin1_id': 2513413, 'admin2_id': 6355234, 'admin3_id': 6362997, 'timezone': 'Europe/Madrid', 'population': 460349, 'postcodes': ['30005', '30010', '30011', '30012', '30070', '30071', '30080', '30570', '30006', '30100', '30004', '30007', '30001', '30009', '30008', '30003', '30002', '30151', '30110'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Murcia', 'admin2': 'Murcia', 'admin3': 'Murcia Municipality'}
+2026-02-19 20:37:20,981 - INFO - Fetching weather data for lat=37.98704, lon=-1.13004, from 2026-02-19 to 2026-02-19
+2026-02-19 20:37:21,163 - INFO - Weather data received: 24 records
+2026-02-19 20:37:21,164 - INFO - Storing weather data for Murcia
+2026-02-19 20:37:21,186 - INFO - 24 records inserted into DB for Murcia
+2026-02-19 20:44:20,465 - INFO - Searching coordinates for city: Berlin
+2026-02-19 20:44:20,638 - INFO - Coordinates found: {'id': 2950159, 'name': 'Berlin', 'latitude': 52.52437, 'longitude': 13.41053, 'elevation': 74.0, 'feature_code': 'PPLC', 'country_code': 'DE', 'admin1_id': 2950157, 'admin3_id': 6547383, 'admin4_id': 6547539, 'timezone': 'Europe/Berlin', 'population': 3426354, 'postcodes': ['10967', '13347'], 'country_id': 2921044, 'country': 'Germany', 'admin1': 'State of Berlin', 'admin3': 'Berlin, Stadt', 'admin4': 'Berlin'}
+2026-02-19 20:44:20,640 - INFO - Fetching weather data for lat=52.52437, lon=13.41053, from 2021-01-21 to 2026-01-12
+2026-02-19 20:44:21,941 - INFO - Weather data received: 43632 records
+2026-02-19 20:44:21,953 - INFO - Storing weather data for Berlin
+2026-02-19 20:44:23,520 - INFO - 43632 records inserted into DB for Berlin
+2026-02-19 22:04:07,452 - INFO - Searching coordinates for city: Madrid
+2026-02-19 22:04:07,639 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 22:04:07,640 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2025-08-08 to 2026-02-07
+2026-02-19 22:04:08,045 - INFO - Weather data received: 4416 records
+2026-02-19 22:04:08,048 - INFO - Storing weather data for Madrid
+2026-02-19 22:04:08,211 - INFO - 4416 records inserted into DB for Madrid
+2026-02-19 22:12:58,708 - INFO - Searching coordinates for city: Madrid
+2026-02-19 22:12:58,903 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 22:12:58,904 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 1999-06-05 to 2000-05-06
+2026-02-19 22:12:59,185 - INFO - Weather data received: 8088 records
+2026-02-19 22:12:59,188 - INFO - Storing weather data for Madrid
+2026-02-19 22:12:59,551 - INFO - 8088 records inserted into DB for Madrid
+2026-02-19 22:13:09,378 - INFO - Searching coordinates for city: Jordania
+2026-02-19 22:13:09,542 - INFO - Coordinates found: {'id': 4599440, 'name': 'Utica', 'latitude': 34.67816, 'longitude': -82.93154, 'elevation': 277.0, 'feature_code': 'PPL', 'country_code': 'US', 'admin1_id': 4597040, 'admin2_id': 4589892, 'timezone': 'America/New_York', 'population': 1489, 'country_id': 6252001, 'country': 'United States', 'admin1': 'South Carolina', 'admin2': 'Oconee'}
+2026-02-19 22:13:09,543 - INFO - Fetching weather data for lat=34.67816, lon=-82.93154, from 1999-06-05 to 2000-05-06
+2026-02-19 22:13:09,857 - INFO - Weather data received: 8088 records
+2026-02-19 22:13:09,860 - INFO - Storing weather data for Jordania
+2026-02-19 22:13:10,149 - INFO - 8088 records inserted into DB for Jordania
+2026-02-19 22:13:18,259 - INFO - Searching coordinates for city: Alemania
+2026-02-19 22:13:18,429 - INFO - Coordinates found: {'id': 8922022, 'name': 'Alemania', 'latitude': 16.11944, 'longitude': -91.51806, 'elevation': 733.0, 'feature_code': 'PPL', 'country_code': 'MX', 'admin1_id': 3531011, 'admin2_id': 8581783, 'timezone': 'America/Mexico_City', 'population': 9, 'country_id': 3996063, 'country': 'Mexico', 'admin1': 'Chiapas', 'admin2': 'La Trinitaria'}
+2026-02-19 22:13:18,430 - INFO - Fetching weather data for lat=16.11944, lon=-91.51806, from 1999-06-05 to 2000-05-06
+2026-02-19 22:13:18,813 - INFO - Weather data received: 8088 records
+2026-02-19 22:13:18,816 - INFO - Storing weather data for Alemania
+2026-02-19 22:13:19,106 - INFO - 8088 records inserted into DB for Alemania
+2026-02-19 22:13:38,338 - INFO - Searching coordinates for city: Bankokoro
+2026-02-19 22:13:38,498 - INFO - Coordinates found: {'id': 2423451, 'name': 'Bankokoro', 'latitude': 11.51667, 'longitude': -8.85, 'elevation': 345.0, 'feature_code': 'PPL', 'country_code': 'GN', 'admin1_id': 8335087, 'admin2_id': 2415702, 'timezone': 'Africa/Conakry', 'country_id': 2420477, 'country': 'Guinea', 'admin1': 'Kankan Region', 'admin2': 'Préfecture de Siguiri'}
+2026-02-19 22:13:38,499 - INFO - Fetching weather data for lat=11.51667, lon=-8.85, from 1200-12-12 to 2000-05-06
+2026-02-19 22:16:44,979 - INFO - Searching coordinates for city: Bankokoro
+2026-02-19 22:16:45,147 - INFO - Coordinates found: {'id': 2423451, 'name': 'Bankokoro', 'latitude': 11.51667, 'longitude': -8.85, 'elevation': 345.0, 'feature_code': 'PPL', 'country_code': 'GN', 'admin1_id': 8335087, 'admin2_id': 2415702, 'timezone': 'Africa/Conakry', 'country_id': 2420477, 'country': 'Guinea', 'admin1': 'Kankan Region', 'admin2': 'Préfecture de Siguiri'}
+2026-02-19 22:16:45,148 - INFO - Fetching weather data for lat=11.51667, lon=-8.85, from 1200-12-12 to 2000-05-06
+2026-02-19 22:19:25,140 - INFO - Searching coordinates for city: London
+2026-02-19 22:19:25,326 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 22:19:25,328 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 1222-12-12 to 2000-12-12
+2026-02-19 22:19:32,450 - INFO - Searching coordinates for city: London
+2026-02-19 22:19:32,608 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 22:19:32,609 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 1600-12-12 to 2000-12-12
+2026-02-19 22:19:37,659 - INFO - Searching coordinates for city: London
+2026-02-19 22:19:37,819 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 22:19:37,820 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 1890-12-12 to 2000-12-12
+2026-02-19 22:19:46,795 - INFO - Searching coordinates for city: London
+2026-02-19 22:19:46,959 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 22:19:46,960 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 1999-12-12 to 2000-12-12
+2026-02-19 22:19:47,280 - INFO - Weather data received: 8808 records
+2026-02-19 22:19:47,284 - INFO - Storing weather data for London
+2026-02-19 22:19:47,608 - INFO - 8808 records inserted into DB for London
+2026-02-19 22:26:38,567 - INFO - Searching coordinates for city: London
+2026-02-19 22:26:38,740 - INFO - Coordinates found: {'id': 2643743, 'name': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'elevation': 25.0, 'feature_code': 'PPLC', 'country_code': 'GB', 'admin1_id': 6269131, 'admin2_id': 2648110, 'timezone': 'Europe/London', 'population': 8961989, 'country_id': 2635167, 'country': 'United Kingdom', 'admin1': 'England', 'admin2': 'Greater London'}
+2026-02-19 22:26:38,741 - INFO - Fetching weather data for lat=51.50853, lon=-0.12574, from 1999-04-12 to 2026-02-06
+2026-02-19 22:26:42,666 - INFO - Weather data received: 235152 records
+2026-02-19 22:26:42,724 - INFO - Storing weather data for London
+2026-02-19 22:26:51,712 - INFO - 235152 records inserted into DB for London
+2026-02-19 22:28:40,839 - INFO - Searching coordinates for city: Madrid
+2026-02-19 22:28:41,001 - INFO - Coordinates found: {'id': 3117735, 'name': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'elevation': 665.0, 'feature_code': 'PPLC', 'country_code': 'ES', 'admin1_id': 3117732, 'admin2_id': 6355233, 'admin3_id': 6359304, 'timezone': 'Europe/Madrid', 'population': 3255944, 'postcodes': ['28706', '28754', '28011', '28017', '28021', '28023', '28024', '28025', '28026', '28030', '28031', '28032', '28038', '28039', '28041', '28047', '28048', '28049', '28051', '28052', '28070', '28071', '28080', '28082', '28083', '28085', '28086', '28016', '28008', '28002', '28019', '28013', '28012', '28036', '28045', '28022', '28005', '28007', '28035', '28033', '28018', '28014', '28053', '28020', '28001', '28037', '28010', '28004', '28015', '28042', '28028', '28046', '28029', '28040', '28003', '28044', '28034', '28027', '28009', '28043', '28087', '28006', '28050', '28000'], 'country_id': 2510769, 'country': 'Spain', 'admin1': 'Madrid', 'admin2': 'Madrid', 'admin3': 'Madrid'}
+2026-02-19 22:28:41,003 - INFO - Fetching weather data for lat=40.4165, lon=-3.70256, from 2024-07-01 to 2024-07-01
+2026-02-19 22:28:41,155 - INFO - Weather data received: 24 records
+2026-02-19 22:28:41,156 - INFO - Storing weather data for Madrid
+2026-02-19 22:28:41,160 - INFO - 24 records inserted into DB for Madrid
+2026-02-19 22:36:45,523 - INFO - Searching coordinates for city: Egipto
+2026-02-19 22:36:45,704 - INFO - Coordinates found: {'id': 3815589, 'name': 'Egipto', 'latitude': 17.26207, 'longitude': -91.9715, 'elevation': 98.0, 'feature_code': 'PPL', 'country_code': 'MX', 'admin1_id': 3531011, 'admin2_id': 8581763, 'timezone': 'America/Mexico_City', 'population': 1419, 'country_id': 3996063, 'country': 'Mexico', 'admin1': 'Chiapas', 'admin2': 'Salto de Agua Municipality'}
+2026-02-19 22:36:45,705 - INFO - Fetching weather data for lat=17.26207, lon=-91.9715, from 1999-12-12 to 2025-06-02
+2026-02-19 22:36:48,851 - INFO - Weather data received: 223320 records
+2026-02-19 22:36:48,917 - INFO - Storing weather data for Egipto
+2026-02-19 22:36:57,346 - INFO - 223320 records inserted into DB for Egipto
+2026-02-19 22:37:39,122 - INFO - Searching coordinates for city: Madison
+2026-02-19 22:37:39,282 - INFO - Coordinates found: {'id': 5261457, 'name': 'Madison', 'latitude': 43.07305, 'longitude': -89.40123, 'elevation': 267.0, 'feature_code': 'PPLA', 'country_code': 'US', 'admin1_id': 5279468, 'admin2_id': 5250074, 'admin3_id': 5261482, 'timezone': 'America/Chicago', 'population': 280305, 'postcodes': ['53701', '53702', '53703', '53704', '53705', '53706', '53707', '53708', '53711', '53713', '53714', '53715', '53716', '53717', '53718', '53719', '53725', '53726', '53744', '53777', '53778', '53779', '53782', '53783', '53784', '53785', '53786', '53788', '53789', '53790', '53791', '53792', '53793', '53794'], 'country_id': 6252001, 'country': 'United States', 'admin1': 'Wisconsin', 'admin2': 'Dane', 'admin3': 'City of Madison'}
+2026-02-19 22:37:39,284 - INFO - Fetching weather data for lat=43.07305, lon=-89.40123, from 1999-12-12 to 2025-06-02
+2026-02-19 22:37:43,174 - INFO - Weather data received: 223320 records
+2026-02-19 22:37:43,230 - INFO - Storing weather data for Madison
+2026-02-19 22:37:51,427 - INFO - 223320 records inserted into DB for Madison

@@ -1,0 +1,14 @@
+/* Ancho inicial igual que otros componentes */
+.global-normal {
+  width: 100%;
+  max-width: 600px;   /* igual que TemperatureStats y PrecipitationStats */
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Cuando hay datos, la tabla puede crecer y ocupar más espacio */
+.global-expanded {
+  width: 100%;
+  max-width: none;    /* deja crecer libremente */
+  overflow-x: auto;   /* scroll horizontal solo si es necesario */
+}

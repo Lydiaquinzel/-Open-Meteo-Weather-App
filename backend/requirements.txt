@@ -1,0 +1,10 @@
+Django>=6.0
+djangorestframework
+django-cors-headers
+requests
+pandas
+psycopg[binary]
+pytest
+pytest-django
+pytz
+django-extensions==4.1
