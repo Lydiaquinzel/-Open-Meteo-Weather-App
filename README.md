@@ -200,11 +200,10 @@ npm start
 
 The backend exposes the following REST endpoints.
 
-Local:
-http://127.0.0.1:8000/api/
-
-Docker:
-http://localhost:8000/api/
+| Entorno | URL de la API |
+|---------|---------------|
+| Local   | http://127.0.0.1:8000/api/ |
+| Docker  | http://localhost:8000/api/ |
 
 The API works identically in both deployment modes.
 
