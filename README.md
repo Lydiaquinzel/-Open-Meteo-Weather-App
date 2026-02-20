@@ -112,7 +112,6 @@ http://localhost:8000/
 📄 Requirements
 - Python 3.10+
 - pip
-- 
 
 STEPS:
 
