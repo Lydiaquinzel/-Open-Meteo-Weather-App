@@ -44,105 +44,120 @@ frontend/
 ├── package.json     # Dependencias frontend
 └── tsconfig.json    # Configuración TypeScript
 ```
-## Set Up
+## Installation & Deployment Guide
 
-## 🐍 Backend Setup
+### 1) Clone the Repository
 
-### 1. Create a virtual environment:
+```bash
+git clone https://github.com/Lydiaquinzel/Open-Meteo-Weather-App.git
+cd Open-Meteo-Weather-App
+```
+From this point, you can choose one of the following backend deployment options.
+
+### 2.1) Backend Deployment (Local)
+
+📄 Requirements
+- Python 3.10+
+- pip
+
+STEPS: 
+
+### 1️⃣ Navigate to backend directory
+
+```bash
+cd backend
+```
+
+### 2️⃣ Create a virtual environment:
 
 ```bash
 python -m venv env
 ```
+### 3️⃣ Activate virtual environment:
 
 Windows
 ```bash
 env\Scripts\activate
 ```
+
 Mac/Linux
 ```bash
 source env/bin/activate
 ```
 
-Install dependencies:
+### 4️⃣ Install dependencies:
 
 ```bash
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
 ```
 
-Run database migrations:
+### 5️⃣ Run database migrations:
 
 ```bash
-cd backend
 python manage.py migrate
 ```
 
-Run the server:
+### 6️⃣ Run tests:
+```bash
+pytest -v
+```
 
+### 7️⃣ Run development server:
 ```bash
 python manage.py runserver
 ```
 
-Run tests:
+🌍 URL
 
-```bash
-pytest -v
+Backend will be available at:
+```http
+http://127.0.0.1:8000/
 ```
 
-⚛️ Frontend Setup
-
-Navigate to frontend folder:
-```bash
-cd frontend
-```
-Install dependencies:
-```bash
-npm install
-```
-Run development server:
-```bash
-npm start
+API base endpoint:
+```http
+http://127.0.0.1:8000/api/
 ```
 
-🐳 Optional: Run Everything with Docker
+### 2.2) Backend Deployment (Docker)
 
-Build and start containers:
-```bash
-docker-compose up -d --build
-```
-Access backend container:
-```bash
-docker exec -it open_meteo_backend bash
-```
-Run database migrations inside container:
-```bash
-python manage.py migrate
-```
-Run backend tests:
-```bash
-pytest -v
-```
+📄 Requirements
+- Docker
+- Docker Compose
 
-# 🐳 Run with Docker
+STEPS:
 
-## 1️⃣ Build and start containers
+### 1️⃣ Build and start containers
 
+From the project root directory:
 ```bash
 docker-compose up -d --build
 ```
 
-## 2️⃣ Access backend container
+To stop containers:
+```bash
+docker-compose down
+```
+
+To fully reset containers and volumes:
+```bash
+docker-compose down -v
+docker-compose up -d --build
+```
+
+### 2️⃣ Access backend container
 
 ```bash
 docker exec -it open_meteo_backend bash
 ```
 
-## 3️⃣ Run database migrations
+### 3️⃣ Run database migrations (container)
 
 ```bash
 python manage.py migrate
 ```
 
-## 4️⃣ Run unit tests
+### 4️⃣ Run unit tests (container)
 
 ```bash
 pytest -v
@@ -150,28 +165,64 @@ pytest -v
 
 🌍 Base URL
 
-```bash
-http://localhost:8000/api/
+The backend will be available at:
+```http
+http://localhost:8000/
 ```
 
-📡 API Endpoints
+### 3) Frontend Deployment (optional)
+
+⚠️ The backend must be running (either locally or via Docker) before starting the frontend. Otherwise, the application will not work.
+
+📄 Requirements
+- Python 3.10+
+- pip
+- 
+
+STEPS:
+
+### 1️⃣ Navigate to frontend folder:
+```bash
+cd frontend
+```
+
+### 2️⃣ Install dependencies:
+```bash
+npm install
+```
+
+### 3️⃣ Run development server:
+```bash
+npm start
+```
+
+## 📡 API Endpoints
+
+The backend exposes the following REST endpoints.
+
+Local:
+http://127.0.0.1:8000/api/
+
+Docker:
+http://localhost:8000/api/
+
+The API works identically in both deployment modes.
 
 ✅ Health Check
 
 GET /api/health/
 
 Example:
-
 ```bash
 curl http://localhost:8000/api/health/
 ```
-Response:
 
+Response:
 ```json
 {"status":"ok"}
 ```
 
-✅ Load Weather Data
+🟢 Load Weather Data
 
 POST /api/load/
 
@@ -202,13 +253,11 @@ Response:
 GET /api/temperature/?city=Madrid&start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
 
 Example:
-
 ```bash
 curl "http://localhost:8000/api/temperature/?city=Madrid"
 ```
 
 Response:
-
 ```json
 {
   "temperature": {
@@ -233,12 +282,12 @@ Response:
 
 GET /api/precipitation/?city=Madrid&start_date=YYYY-MM-DD&end_date=YYYY-MM-DD
 
+Example:
 ```bash
 curl "http://localhost:8000/api/precipitation/?city=Madrid"
 ```
 
 Response:
-
 ```json
 {
   "precipitation": {
@@ -262,20 +311,12 @@ Response:
 
 GET /api/global-stats/
 
-Optional filters:
-
-?city=Madrid
-?start_date=YYYY-MM-DD
-?end_date=YYYY-MM-DD
-
 Example:
-
 ```bash
 curl http://localhost:8000/api/global-stats/
 ```
 
 Response:
-
 ```json
 {
   "Madrid": {
@@ -300,30 +341,36 @@ Response:
 }
 ```
 
-📝 Logs
+How to Test the API:
 
-Logs are stored inside the container at:
+The API can be tested in any of the following ways:
+- Using cURL (terminal)
+- Using Postman
+- Using the frontend interface
 
-/app/logs/
+The backend must be running (either locally or via Docker).
+The endpoints and responses are identical in both deployment modes.
 
-To inspect:
+## 📝 Logs
 
-```bash
-ls /app/logs
-cat /app/logs/weatherDD-MM-YYYY.log
+The logs are stored in the project folder:
+```
+backend/logs/
 ```
 
-🖥️ Run Without Docker (Optional)
-
-If running locally:
-
+Ver los logs desde tu máquina local:
 ```bash
-python manage.py migrate
-python manage.py runserver 0.0.0.0:8000
+# List the log files:
+ls backend/logs
+# View a specific log:
+cat backend/logs/weatherDD-MM-YYYY.log
 ```
 
-Then access:
-
+Ver los logs desde dentro del contenedor Docker:
 ```bash
-http://localhost:8000/api/
+# List the log files:
+docker exec -it open_meteo_backend ls /app/logs
+# View a specific log:
+docker exec -it open_meteo_backend cat /app/logs/weatherDD-MM-YYYY.log
 ```
+
