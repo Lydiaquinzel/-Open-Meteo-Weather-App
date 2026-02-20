@@ -196,6 +196,56 @@ npm install
 npm start
 ```
 
+## 📝 Logs
+
+The logs are stored in the project folder:
+```
+backend/logs/
+```
+
+Ver los logs desde tu máquina local:
+```bash
+# List the log files:
+ls backend/logs
+# View a specific log:
+cat backend/logs/weatherDD-MM-YYYY.log
+```
+
+Ver los logs desde dentro del contenedor Docker:
+```bash
+# List the log files:
+docker exec -it open_meteo_backend ls /app/logs
+# View a specific log:
+docker exec -it open_meteo_backend cat /app/logs/weatherDD-MM-YYYY.log
+```
+
+## 🧪 Database Tests
+
+Quick test of the `WeatherRecord` model:
+
+1. Open the Django shell:
+```bash
+python manage.py shell
+```
+
+2. Run the following to create and query test records:
+```python
+from weather.models import WeatherRecord
+
+# Create a test record:
+WeatherRecord.objects.create(
+    city="Madrid",
+    latitude=40.4168,
+    longitude=-3.7038,
+    datetime="2024-07-01T12:00",
+    temperature=28.5,
+    precipitation=0.0
+)
+
+# Query all records:
+WeatherRecord.objects.all()
+```
+
 ## 📡 API Endpoints
 
 The backend exposes the following REST endpoints.
@@ -340,36 +390,12 @@ Response:
 }
 ```
 
-How to Test the API:
-
-The API can be tested in any of the following ways:
-- Using cURL (terminal)
-- Using Postman
-- Using the frontend interface
-
-The backend must be running (either locally or via Docker).
-The endpoints and responses are identical in both deployment modes.
-
-## 📝 Logs
-
-The logs are stored in the project folder:
-```
-backend/logs/
-```
-
-Ver los logs desde tu máquina local:
-```bash
-# List the log files:
-ls backend/logs
-# View a specific log:
-cat backend/logs/weatherDD-MM-YYYY.log
-```
-
-Ver los logs desde dentro del contenedor Docker:
-```bash
-# List the log files:
-docker exec -it open_meteo_backend ls /app/logs
-# View a specific log:
-docker exec -it open_meteo_backend cat /app/logs/weatherDD-MM-YYYY.log
-```
-
+> **How to test the API:**
+>
+> The API can be tested in any of the following ways:
+> 
+> - Using cURL (terminal)  
+> - Using Postman  
+> - Using the frontend interface  
+>
+> **Note:** The backend must be running (either locally or via Docker). The endpoints and responses are identical in both deployment modes.
