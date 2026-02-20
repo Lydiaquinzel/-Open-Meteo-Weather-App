@@ -107,7 +107,7 @@ http://localhost:8000/
 
 ### 3) Frontend Deployment (optional)
 
-⚠️ The backend must be running (either locally or via Docker) before starting the frontend. Otherwise, the application will not work.
+⚠️ The backend must be running before starting the frontend. Otherwise, the application will not work.
 
 📄 Requirements
 - Python 3.10+
